@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08D2C01B1E9CC4CE00D8120C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D2C01A1E9CC4CE00D8120C /* main.m */; };
+		08A3FEB01E9CD8A800AEC7DD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A3FEAF1E9CD8A800AEC7DD /* HomeViewController.m */; };
 		08D2C01E1E9CC4CE00D8120C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D2C01D1E9CC4CE00D8120C /* AppDelegate.m */; };
-		08D2C0211E9CC4CE00D8120C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D2C0201E9CC4CE00D8120C /* ViewController.m */; };
-		08D2C0241E9CC4CE00D8120C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D2C0221E9CC4CE00D8120C /* Main.storyboard */; };
-		08D2C0261E9CC4CE00D8120C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D2C0251E9CC4CE00D8120C /* Assets.xcassets */; };
-		08D2C0291E9CC4CE00D8120C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D2C0271E9CC4CE00D8120C /* LaunchScreen.storyboard */; };
 		08D2C0341E9CC4CE00D8120C /* YWLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D2C0331E9CC4CE00D8120C /* YWLabelDemoTests.m */; };
 		08D2C03F1E9CC4CE00D8120C /* YWLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D2C03E1E9CC4CE00D8120C /* YWLabelDemoUITests.m */; };
+		08D2C0701E9CC51200D8120C /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D2C0591E9CC51200D8120C /* CommonViewController.m */; };
+		08D2C0741E9CC51200D8120C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D2C0661E9CC51200D8120C /* Assets.xcassets */; };
+		08D2C0751E9CC51200D8120C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D2C0671E9CC51200D8120C /* LaunchScreen.storyboard */; };
+		08D2C0761E9CC51200D8120C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D2C0691E9CC51200D8120C /* Main.storyboard */; };
+		08D2C0771E9CC51200D8120C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08D2C06B1E9CC51200D8120C /* Info.plist */; };
+		08D2C0781E9CC51200D8120C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D2C06C1E9CC51200D8120C /* main.m */; };
+		08D2C07D1E9CC5BC00D8120C /* YWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D2C07C1E9CC5BC00D8120C /* YWLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +38,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08A3FEAE1E9CD8A800AEC7DD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		08A3FEAF1E9CD8A800AEC7DD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		08D2C0161E9CC4CE00D8120C /* YWLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		08D2C01A1E9CC4CE00D8120C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08D2C01C1E9CC4CE00D8120C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08D2C01D1E9CC4CE00D8120C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		08D2C01F1E9CC4CE00D8120C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		08D2C0201E9CC4CE00D8120C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		08D2C0231E9CC4CE00D8120C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		08D2C0251E9CC4CE00D8120C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		08D2C0281E9CC4CE00D8120C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		08D2C02A1E9CC4CE00D8120C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D2C02F1E9CC4CE00D8120C /* YWLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D2C0331E9CC4CE00D8120C /* YWLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWLabelDemoTests.m; sourceTree = "<group>"; };
 		08D2C0351E9CC4CE00D8120C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D2C03A1E9CC4CE00D8120C /* YWLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D2C03E1E9CC4CE00D8120C /* YWLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWLabelDemoUITests.m; sourceTree = "<group>"; };
 		08D2C0401E9CC4CE00D8120C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D2C0581E9CC51200D8120C /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		08D2C0591E9CC51200D8120C /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		08D2C05A1E9CC51200D8120C /* PublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
+		08D2C0661E9CC51200D8120C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08D2C0681E9CC51200D8120C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08D2C06A1E9CC51200D8120C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08D2C06B1E9CC51200D8120C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D2C06C1E9CC51200D8120C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08D2C0791E9CC53200D8120C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		08D2C07B1E9CC5BC00D8120C /* YWLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLabel.h; sourceTree = "<group>"; };
+		08D2C07C1E9CC5BC00D8120C /* YWLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,25 +110,13 @@
 		08D2C0181E9CC4CE00D8120C /* YWLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				08D2C04C1E9CC51200D8120C /* Function */,
+				08D2C0561E9CC51200D8120C /* Public */,
+				08D2C0651E9CC51200D8120C /* Supporting Files */,
 				08D2C01C1E9CC4CE00D8120C /* AppDelegate.h */,
 				08D2C01D1E9CC4CE00D8120C /* AppDelegate.m */,
-				08D2C01F1E9CC4CE00D8120C /* ViewController.h */,
-				08D2C0201E9CC4CE00D8120C /* ViewController.m */,
-				08D2C0221E9CC4CE00D8120C /* Main.storyboard */,
-				08D2C0251E9CC4CE00D8120C /* Assets.xcassets */,
-				08D2C0271E9CC4CE00D8120C /* LaunchScreen.storyboard */,
-				08D2C02A1E9CC4CE00D8120C /* Info.plist */,
-				08D2C0191E9CC4CE00D8120C /* Supporting Files */,
 			);
 			path = YWLabelDemo;
-			sourceTree = "<group>";
-		};
-		08D2C0191E9CC4CE00D8120C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				08D2C01A1E9CC4CE00D8120C /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		08D2C0321E9CC4CE00D8120C /* YWLabelDemoTests */ = {
@@ -138,6 +135,104 @@
 				08D2C0401E9CC4CE00D8120C /* Info.plist */,
 			);
 			path = YWLabelDemoUITests;
+			sourceTree = "<group>";
+		};
+		08D2C04C1E9CC51200D8120C /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				08D2C04D1E9CC51200D8120C /* Home */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		08D2C04D1E9CC51200D8120C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				08D2C04E1E9CC51200D8120C /* CHome */,
+				08D2C0511E9CC51200D8120C /* MHome */,
+				08D2C0521E9CC51200D8120C /* RHome */,
+				08D2C0531E9CC51200D8120C /* VHome */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		08D2C04E1E9CC51200D8120C /* CHome */ = {
+			isa = PBXGroup;
+			children = (
+				08A3FEAE1E9CD8A800AEC7DD /* HomeViewController.h */,
+				08A3FEAF1E9CD8A800AEC7DD /* HomeViewController.m */,
+			);
+			path = CHome;
+			sourceTree = "<group>";
+		};
+		08D2C0511E9CC51200D8120C /* MHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MHome;
+			sourceTree = "<group>";
+		};
+		08D2C0521E9CC51200D8120C /* RHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RHome;
+			sourceTree = "<group>";
+		};
+		08D2C0531E9CC51200D8120C /* VHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VHome;
+			sourceTree = "<group>";
+		};
+		08D2C0561E9CC51200D8120C /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				08D2C0571E9CC51200D8120C /* PublicCommon */,
+				08D2C05B1E9CC51200D8120C /* PublicFunction */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		08D2C0571E9CC51200D8120C /* PublicCommon */ = {
+			isa = PBXGroup;
+			children = (
+				08D2C0581E9CC51200D8120C /* CommonViewController.h */,
+				08D2C0591E9CC51200D8120C /* CommonViewController.m */,
+				08D2C05A1E9CC51200D8120C /* PublicDefine.h */,
+			);
+			path = PublicCommon;
+			sourceTree = "<group>";
+		};
+		08D2C05B1E9CC51200D8120C /* PublicFunction */ = {
+			isa = PBXGroup;
+			children = (
+				08D2C07A1E9CC5AA00D8120C /* YWLabel */,
+			);
+			path = PublicFunction;
+			sourceTree = "<group>";
+		};
+		08D2C0651E9CC51200D8120C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08D2C0791E9CC53200D8120C /* PrefixHeader.pch */,
+				08D2C0661E9CC51200D8120C /* Assets.xcassets */,
+				08D2C0671E9CC51200D8120C /* LaunchScreen.storyboard */,
+				08D2C0691E9CC51200D8120C /* Main.storyboard */,
+				08D2C06B1E9CC51200D8120C /* Info.plist */,
+				08D2C06C1E9CC51200D8120C /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08D2C07A1E9CC5AA00D8120C /* YWLabel */ = {
+			isa = PBXGroup;
+			children = (
+				08D2C07B1E9CC5BC00D8120C /* YWLabel.h */,
+				08D2C07C1E9CC5BC00D8120C /* YWLabel.m */,
+			);
+			path = YWLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +341,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08D2C0291E9CC4CE00D8120C /* LaunchScreen.storyboard in Resources */,
-				08D2C0261E9CC4CE00D8120C /* Assets.xcassets in Resources */,
-				08D2C0241E9CC4CE00D8120C /* Main.storyboard in Resources */,
+				08D2C0771E9CC51200D8120C /* Info.plist in Resources */,
+				08D2C0761E9CC51200D8120C /* Main.storyboard in Resources */,
+				08D2C0741E9CC51200D8120C /* Assets.xcassets in Resources */,
+				08D2C0751E9CC51200D8120C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +369,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08D2C0211E9CC4CE00D8120C /* ViewController.m in Sources */,
 				08D2C01E1E9CC4CE00D8120C /* AppDelegate.m in Sources */,
-				08D2C01B1E9CC4CE00D8120C /* main.m in Sources */,
+				08D2C0701E9CC51200D8120C /* CommonViewController.m in Sources */,
+				08D2C07D1E9CC5BC00D8120C /* YWLabel.m in Sources */,
+				08A3FEB01E9CD8A800AEC7DD /* HomeViewController.m in Sources */,
+				08D2C0781E9CC51200D8120C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +409,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		08D2C0221E9CC4CE00D8120C /* Main.storyboard */ = {
+		08D2C0671E9CC51200D8120C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				08D2C0231E9CC4CE00D8120C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		08D2C0271E9CC4CE00D8120C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08D2C0281E9CC4CE00D8120C /* Base */,
+				08D2C0681E9CC51200D8120C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		08D2C0691E9CC51200D8120C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08D2C06A1E9CC51200D8120C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,7 +520,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YWLabelDemo/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangyawen/Documents/wang66_GitHub/YWLabelDemo/YWLabelDemo/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "/Users/wangyawen/Documents/wang66_GitHub/YWLabelDemo/YWLabelDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wyw.YWLabelDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +533,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YWLabelDemo/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangyawen/Documents/wang66_GitHub/YWLabelDemo/YWLabelDemo/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "/Users/wangyawen/Documents/wang66_GitHub/YWLabelDemo/YWLabelDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wyw.YWLabelDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +607,7 @@
 				08D2C0451E9CC4CE00D8120C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08D2C0461E9CC4CE00D8120C /* Build configuration list for PBXNativeTarget "YWLabelDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +616,7 @@
 				08D2C0481E9CC4CE00D8120C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08D2C0491E9CC4CE00D8120C /* Build configuration list for PBXNativeTarget "YWLabelDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +625,7 @@
 				08D2C04B1E9CC4CE00D8120C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

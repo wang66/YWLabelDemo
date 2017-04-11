@@ -1,8 +1,8 @@
 //
 //  main.m
-//  YWLabelDemo
+//  SegmentScrollVCDemo
 //
-//  Created by 王亚文 on 2017/4/11.
+//  Created by 王亚文 on 2017/4/8.
 //  Copyright © 2017年 wyw. All rights reserved.
 //
 
